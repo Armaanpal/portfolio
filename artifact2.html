@@ -1,0 +1,92 @@
+  <!-- ============================================================
+       HONORS ARTIFACT 2 RUBRIC CHECKLIST
+       Required: title, screenshot or link, what the program does,
+       at least 4 coding concepts (one more than CP), one part you
+       understand well, one bug you fixed, what you would improve,
+       AND a deeper explanation of how one section of the code works.
+       ============================================================ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artifact 2: Programming - Armaan Pal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Artifact 2: Programming or Interactive Project</h1>
+    <p>Flappy Bird</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="artifact1.html">Web Design</a>
+    <a href="artifact2.html">Programming</a>
+    <a href="artifact3.html">AI and Data</a>
+    <a href="artifact4.html">Cybersecurity</a>
+    <a href="artifact5.html">Honors Choice</a>
+    <a href="impact.html">Impact</a>
+    <a href="reflection.html">Reflection</a>
+  </nav>
+
+  <main>
+    <a href="index.html" class="back-link">&larr; Back to homepage</a>
+
+
+    <section class="card">
+      <h2>What This Program Does</h2>
+      <p>This program is a game similar to Flappy Bird. Users interact by dodging tubes by pressing space to make the bird fly.</p>
+    </section>
+
+    <section class="card">
+      <h2>Screenshot or Visual</h2>
+      <div class="placeholder"><img src="flapbird.png" alt="My program running">
+</div>
+    </section>
+
+    <section class="card">
+      <h2>Project Link</h2>
+      <p><a href="https://studio.code.org/projects/gamelab/3ffd428e-3978-4014-9cb4-cd77e5333dc4">Open the project &rarr;</a></p>
+    </section>
+
+    <section class="card">
+      <h2>Coding Concepts I Used</h2>
+      
+      <ul>
+        <li><strong>Variable:</strong> Variables in my project change how a sprite is. For example, it changes the size, rotation, and even the placement of the sprite. I had variables for the tubes and the flappy bird.</li>
+        <li><strong>Conditional:</strong> A conditional is my project, which is a conditional that checks if the player presses space. If the player clicks space, the conditional ensures the bird flies up a little.</li>
+        <li><strong>Counters:</strong> There is one counter which is the score. The counter works by checking if the tube passes a certain point, and if it does, the score goes up by one. </li>
+        <li><strong>Function:</strong> I have three functions in my project: an end screen, a start screen, and a draw function. The end screen and start screen are just functions to make the screen show up. The draw function ensures that everything in the game runs and moves.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>One Part of the Code I Understand Well</h2>
+      <p>When the user presses space, my code makes the birds jump up because, in the code, I made it so that if the player presses space, the bird x increases a little.</p>
+    </section>
+
+    <section class="card">
+      <h2>Deeper Technical Explanation: How One Section Works</h2>
+
+      <p><strong>The code section:</strong> if (keyWentDown("space")) {
+        flap.velocityY = -20;
+      } else {
+        flap.velocityY = 2;</p>
+      <p>I used a conditional inside a loop so that when the user presses space, the program makes the bird flap up.</p>
+    </section>
+
+    <section class="card">
+      <h2>One Bug or Challenge I Fixed</h2>
+      <p>One problem that occurred is that players used to be able to go under the tube. I fixed this by saying if the bird's y is greater than 400, make the bird go back to 400.</p>
+    </section>
+
+    <section class="card">
+      <h2>One Thing I Would Improve</h2>
+      <p>One feature I would add if I had more time would be to make it so that the bird can't go over the map.</p>
+    </section>
+
+  </main>
+</body>
+</html>
